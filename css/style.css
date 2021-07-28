@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+	margin-left: 10px;
+	margin: auto;
+	color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.logo-title {
+	margin-top: 10px;
+	margin-left: 10px;
+	display: inline-block;
+}
+
+.wrapper b {
+color: #00FF00;
+}
+
+.about-us-header {
+	color: #fff;
+	margin-bottom: 50px;
+	font-size: 40px;
+	display: block;
+}
+
+.about-us-header b {
+	color: #00FF00;
+}
+
+.inner-text {
+	font-weight: 300;
+	display: block;
+	width: 1280px;
+}
+
+header {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://scontent.ftlv6-1.fna.fbcdn.net/v/t1.6435-9/209813703_10226318327931373_9161599324063247210_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=730e14&_nc_ohc=ycPwCDOYacYAX97XrHK&_nc_ht=scontent.ftlv6-1.fna&oh=566a6d3afd3ff5a9617c44b353eb3ce7&oe=60E799CF);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav-area li a:hover {
+	background: #fff;
+	color: #333;
+}
+
+.welcome-text {
+	position: relative;
+    top: 1%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	left: 35%;
+    width: 600px;
+}
+.welcome-text h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.welcome-text h1 span {
+	color: #00FF00;
+}
+.welcome-text a {
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+}
+.welcome-text a:hover {
+	background: #fff;
+	color: #333;
+}
+
+.about-us-text h2 {
+
+	height: 20px;
+	margin: 20% 30%;
+	text-align: center;
+	color: #fff;
+
+
+}
+
+#map.map-wrapper {
+	position: absolute;
+    top: 10%;
+    left: 16%;
+}
+
+.about-us-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+
+/*resposive*/
+
+@media (max-width:600px) {
+	.wrapper {
+		width: 100%;
+	}
+	.logo {
+		float: none;
+		width: 50%;
+		text-align: center;
+		margin: auto;
+	}
+	img {
+		width: 100%;
+	}
+	.nav-area {
+		float: none;
+		margin-top: 0;
+	}
+	.nav-area li a {
+		padding: 5px;
+		font-size: 11px;
+	}
+	.nav-area {
+		text-align: center;
+	}
+	.welcome-text {
+		width: 100%;
+		height: auto;
+		margin: 30% 0;
+	}
+	.welcome-text h1 {
+		font-size: 30px;
+	}
+
+.about-us-text h2 {
+text-align: center;
+	}
+}
